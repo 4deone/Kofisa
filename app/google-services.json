@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "961772272437",
+    "firebase_url": "https://kofisa-71131.firebaseio.com",
+    "project_id": "kofisa-71131",
+    "storage_bucket": "kofisa-71131.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961772272437:android:500dfd8f94d573e8",
+        "android_client_info": {
+          "package_name": "com.example.kofisa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961772272437-mtta1v4nmr80mk4taopsr5j2mer2tbl0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kofisa",
+            "certificate_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+          }
+        },
+        {
+          "client_id": "961772272437-e9acuq8m9oqr2i0mgtdq5genhmafdg5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrXu2bsaXxGXhpo1AShY0iEXYfssANQ9c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961772272437-e9acuq8m9oqr2i0mgtdq5genhmafdg5q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
