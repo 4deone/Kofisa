@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         /*imageViewOC.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v) {
                 //Launch Detail Activity
-                launchDetailActivity();
+                //launchDetailActivity();
             }
         });*/
     }
