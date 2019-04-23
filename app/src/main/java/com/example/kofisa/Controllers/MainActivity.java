@@ -1,13 +1,24 @@
 package com.example.kofisa.Controllers;
 
+import android.content.Intent;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
 import com.example.kofisa.R;
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.api.ApiException;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -15,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
     private EditText editEmail;
     private EditText editPassword;
     private TextView textViewSignUp;
+
+    private FirebaseAuth mAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         this.configureEditTextPassword();
         this.configureTextViewSignUp();
     }
+
 
     private void configureButtonRegistrer(){
         // Serialise ImageView
