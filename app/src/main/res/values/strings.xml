@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Kofisa</string>
+    <string name="failed">Erreur</string>
 </resources>
